@@ -94,6 +94,6 @@ If the Default terminal is not set to the cmd (e.g. is set to powershell) then t
 
 Select "Command Prompt" from the drop-down list
 
-![image](https://user-images.githubusercontent.com/117054974/199016467-475a2d2c-0163-44fb-ae88-3137dae30aa9.png)
+![image](https://user-images.githubusercontent.com/117054974/199018226-a4ee2514-4591-4cff-881e-75ea94ed03c4.png)
 
 Again try to run the script and if everything goes fine, you should see a Test.pdf file in the workspace folder!
