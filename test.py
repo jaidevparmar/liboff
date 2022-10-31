@@ -18,7 +18,7 @@ desktop = smgr.createInstanceWithContext(
     "com.sun.star.frame.Desktop", ctx)
 dispatcher = smgr.createInstanceWithContext(
     "com.sun.star.frame.DispatchHelper", ctx)
-filepath = r"D:\wa\liboff\Untitled 1.docx"
+filepath = r"D:\liboff\Test.docx"
 fileUrl = uno.systemPathToFileUrl(os.path.realpath(filepath))
 uno_args = (
     createProp("Minimized", True),
