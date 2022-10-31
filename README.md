@@ -27,5 +27,4 @@ Now click on pythonversion\>PythonVersion inside the Macros Dialog and click on 
 ![image](https://user-images.githubusercontent.com/117054974/198940650-6c0fc027-75e9-473f-ac5e-6af643644bd1.png)
 
 The writer should now display the version of Python that is inbuild in LibreOffice.
-
-![image](https://user-images.githubusercontent.com/117054974/198941478-8518456e-83d5-4233-93d0-9258f04751de.png)
+![image](https://user-images.githubusercontent.com/117054974/198942332-016cd4bb-ebba-4e47-bafb-e6ceb9028dcd.png)
