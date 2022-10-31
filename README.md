@@ -26,5 +26,5 @@ Create a new writer or calc document, then click on Tools\>Macros\>Organize Macr
 Now click on pythonversion\>PythonVersion inside the Macros Dialog and click on the Run button.
 ![image](https://user-images.githubusercontent.com/117054974/198940650-6c0fc027-75e9-473f-ac5e-6af643644bd1.png)
 
-The writer should now display the version of Python that is inbuild in LibreOffice.
+The writer should now display the version of Python that is inbuilt inside the LibreOffice.
 ![image](https://user-images.githubusercontent.com/117054974/198942332-016cd4bb-ebba-4e47-bafb-e6ceb9028dcd.png)
