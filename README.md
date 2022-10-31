@@ -10,7 +10,7 @@ You will need to install the following software:
 2. [Miniconda distribution](https://docs.conda.io/en/latest/miniconda.html)
 3. [VS Code](https://code.visualstudio.com/)
 
-## Step 1 Get inbuilt Python Version in LibreOffice
+## Step 1 Get the inbuilt Python Version in LibreOffice
 First step is to determine the version of the internal Python that has come with the installed LibreOffice. 
 
 Download the source code of the this project. It has a file called pythonversion.py, copy this file to 
