@@ -46,3 +46,15 @@ Once the liboff virtual environment is created we could activate it by using the
 
 ![image](https://user-images.githubusercontent.com/117054974/198951678-32aff44e-8a73-4a61-9ae0-fe252383da5c.png)
 
+## Step 3 Configure VS Code
+### Select the python environment created in the previous step
+Start the VS Code and select liboff:conda interpreter by clicking on the bottom right button of the status bar. 
+
+![image](https://user-images.githubusercontent.com/117054974/199003337-9e6625d1-f7a6-466a-8eeb-8a9a43b6403d.png)
+
+This will bring up the list of Conda environments. We need to select the liboff virtualenv created in the previous step.
+
+![image](https://user-images.githubusercontent.com/117054974/199003567-e987fedf-548f-4bc7-8de6-20664386e442.png)
+
+
+
