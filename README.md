@@ -80,5 +80,20 @@ Add the below variables to your settings.json file.
     ],
 }
 ```
+### Start LibreOffice with options to listen on a channel
 
+> "C:\Program Files\LibreOffice\program\soffice.exe" --accept=socket,host=localhost,port=2002;urp;
 
+### Run the test.py script in VS Code
+
+![image](https://user-images.githubusercontent.com/117054974/199015556-d6d00f3c-2f4d-42d8-9d80-5e2b4d7a0e26.png)
+
+If the Default terminal is not set to the cmd (e.g. is set to powershell) then the Conda environment will not activate. You will need to change the default terminal to Windows CMD. This can be down by the drop-down in the terminal that is started and clicking "Select Default Profile"
+
+![image](https://user-images.githubusercontent.com/117054974/199015982-fdcbc27c-46fd-4404-9793-584e1472afd0.png)
+
+Select "Command Prompt" from the drop-down list
+
+![image](https://user-images.githubusercontent.com/117054974/199016467-475a2d2c-0163-44fb-ae88-3137dae30aa9.png)
+
+Again try to run the script and if everything goes fine, you should see a Test.pdf file in the workspace folder!
