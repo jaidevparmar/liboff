@@ -105,7 +105,7 @@ Once the liboff virtual environment is created we could activate it by using the
 ### Select the python environment created in the previous step
 Start the VS Code and select liboff:conda interpreter by clicking on the bottom right button of the status bar. Now open a folder where you wish to create your files.
 
-![image](https://user-images.githubusercontent.com/117054974/199004130-402a06d6-5254-4bb4-91d7-06e78cdaad2f.png)
+![image](https://user-images.githubusercontent.com/117054974/199008531-e7a8723b-0c73-4d3c-9279-3d653319a4a2.png)
 
 This will bring up the list of Conda environments. We need to select the liboff virtualenv created in the previous step.
 
