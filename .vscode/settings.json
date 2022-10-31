@@ -1,0 +1,12 @@
+{
+    "terminal.integrated.env.windows": {
+        "URE_BOOTSTRAP" : "vnd.sun.star.pathname:C:\\Progra~1\\LibreOffice\\program\\fundamental.ini",
+        "UNO_PATH" : "C:\\Progra~1\\LibreOffice\\program",
+        "PYTHONPATH" : "${env:PYTHONPATH};C:\\Progra~1\\LibreOffice\\program",
+        "PATH" : "${env:PATH};C:\\Progra~1\\LibreOffice\\program"
+    },
+    "python.analysis.extraPaths": [
+        "uno",
+        "C:\\Program Files\\LibreOffice\\program"
+    ],
+}
