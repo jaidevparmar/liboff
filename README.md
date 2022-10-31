@@ -39,3 +39,10 @@ As of writing this document the latest version of Python available on Conda site
 > conda create -n liboff python=3.8.13
 
 ![image](https://user-images.githubusercontent.com/117054974/198950244-8e3177fa-1f7c-4b95-8cc3-205d8eed68a0.png)
+
+Once the liboff virtual environment is created we could activate it by using the command
+
+>conda activate liboff
+
+![image](https://user-images.githubusercontent.com/117054974/198951678-32aff44e-8a73-4a61-9ae0-fe252383da5c.png)
+
