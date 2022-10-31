@@ -34,7 +34,7 @@ Start the Miniconda/Anaconda Prompt from the Start Menu or Search
 
 ![image](https://user-images.githubusercontent.com/117054974/198943831-72b2bb5e-a695-44c7-b46f-cec785df1a83.png)
 
-As of writing this document the latest version of Python available on Conda site is 3.8.13 but we need version 3.8.14. Even if the minor version of Python (3.8.13) is not matching with the minor version of Python in LibreOffice (3.8.14) they are binary compatible (in theory), in future we could upgrade when the exact version is available to be in sync. For now let's go ahead an install the latest version available in Conda.
+As of writing this document the latest version of Python available on Conda site is 3.8.13 but we need version 3.8.14 that is inside LibreOffice. Now even if the minor version of Python (3.8.13) is not matching with the minor version of Python in LibreOffice (3.8.14) they are binary compatible (in theory), For now let's go ahead and install the latest version available in Conda. In future we should upgrade to the exact version when it is available in Conda to be in perfect sync. 
 
 > conda create -n liboff python=3.8.13
 
