@@ -10,7 +10,7 @@ You will need to install the following software:
 2. [Miniconda distribution](https://docs.conda.io/en/latest/miniconda.html)
 3. [VS Code](https://code.visualstudio.com/)
 
-## Step 1
+## Step 1 Get inbuilt Python Version in LibreOffice
 First step is to determine the version of the internal Python that has come with the installed LibreOffice. 
 
 Download the source code of the this project. It has a file called pythonversion.py, copy this file to 
@@ -28,3 +28,13 @@ Now click on pythonversion\>PythonVersion inside the Macros Dialog and click on 
 
 The writer should now display the version of Python that is inbuilt inside the LibreOffice.
 ![image](https://user-images.githubusercontent.com/117054974/198942332-016cd4bb-ebba-4e47-bafb-e6ceb9028dcd.png)
+
+## Step 2 Create virtualenv in Miniconda/Anaconda
+Start the Miniconda/Anaconda Prompt from the Start Menu or Search
+
+![image](https://user-images.githubusercontent.com/117054974/198943831-72b2bb5e-a695-44c7-b46f-cec785df1a83.png)
+
+As of writing this document the latest version of Python available on Conda site is 3.8.13 but we need version 3.8.14. Even if the minor version of Python (3.8.13) is not matching with the minor version of Python in LibreOffice (3.8.14) they are binary compatible (in theory), in future we could upgrade when the exact version is available to be in sync. For now let's go ahead an install the latest version available in Conda.
+
+> conda create -n liboff python=3.8.13
+![image](https://user-images.githubusercontent.com/117054974/198950244-8e3177fa-1f7c-4b95-8cc3-205d8eed68a0.png)
