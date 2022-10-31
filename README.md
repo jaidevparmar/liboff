@@ -61,7 +61,11 @@ Go to \>File\>Preferences\>Settings and select "Workspace" Tab
 
 ![image](https://user-images.githubusercontent.com/117054974/199005327-22df58ec-d738-4ebc-8bc9-e27c5159aed1.png)
 
-In the search bar type "terminal.integrated.env". This will filter the settings to this specific settings variable. Now click on "Edit in settings.json". This will create a new settings.json in the .vscode folder in your workspace. Add the below variables to your settings.json file.
+In the search bar type "terminal.integrated.env". This will filter the settings to this specific settings variable. Now click on "Edit in settings.json". This will create a new settings.json in the .vscode folder in your workspace. 
+
+![image](https://user-images.githubusercontent.com/117054974/199006017-a5a15d42-1870-4127-825d-ed941d4e9aa4.png)
+
+Add the below variables to your settings.json file.
 ```json
 {
     "terminal.integrated.env.windows": {
@@ -76,6 +80,5 @@ In the search bar type "terminal.integrated.env". This will filter the settings 
     ],
 }
 ```
-![image](https://user-images.githubusercontent.com/117054974/199006017-a5a15d42-1870-4127-825d-ed941d4e9aa4.png)
 
 
