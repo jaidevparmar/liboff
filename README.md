@@ -97,3 +97,4 @@ Select "Command Prompt" from the drop-down list
 ![image](https://user-images.githubusercontent.com/117054974/199018226-a4ee2514-4591-4cff-881e-75ea94ed03c4.png)
 
 Again try to run the script and if everything goes fine, you should see a Test.pdf file in the workspace folder!
+We are now all set to work with LibreOffice and Python using VSCode!!
