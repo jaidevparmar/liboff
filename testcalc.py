@@ -29,7 +29,10 @@ document = desktop.loadComponentFromURL(
 oSheet = document.CurrentController.getActiveSheet()
 oCell = oSheet.getCellRangeByName("A1")
 oCell.setValue(123)
-
+oCell = oSheet.getCellByPosition(0, 1)
+oCell.setValue(456)
+oCell = oSheet.getCellByPosition(0, 2)
+oCell.setFormula("=A1+A2")
 uno_args = (
     createProp("FilterName", "calc_pdf_Export"),
     createProp("Overwrite", True),
