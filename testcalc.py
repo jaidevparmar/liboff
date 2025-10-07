@@ -18,18 +18,23 @@ desktop = smgr.createInstanceWithContext(
     "com.sun.star.frame.Desktop", ctx)
 dispatcher = smgr.createInstanceWithContext(
     "com.sun.star.frame.DispatchHelper", ctx)
-filepath = "Test.docx"
+filepath = "Test.xlsx"
 fileUrl = uno.systemPathToFileUrl(os.path.realpath(filepath))
 uno_args = (
-    createProp("Minimized", True),
+    createProp("Minimized", False),
 )
 document = desktop.loadComponentFromURL(
     fileUrl, "_default", 0, uno_args)
+
+oSheet = document.CurrentController.getActiveSheet()
+oCell = oSheet.getCellRangeByName("A1")
+oCell.setValue(123)
+
 uno_args = (
-    createProp("FilterName", "writer_pdf_Export"),
+    createProp("FilterName", "calc_pdf_Export"),
     createProp("Overwrite", True),
 )
-newpath = filepath[:-len("docx")] + "pdf"
+newpath = filepath[:-len("xlsx")] + "pdf"
 fileUrl = uno.systemPathToFileUrl(os.path.realpath(newpath))
 try:
     document.storeToURL(fileUrl, uno_args)  # Export
